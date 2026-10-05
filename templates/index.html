@@ -1,5 +1,24 @@
 {% extends "base.html" %} {% block title %} Trang chủ {% endblock %} {% block
 content %}
-<h1>Trang chủ</h1>
-<p>Đây là nội dung trang chủ.</p>
+<main>
+  <div class="container">
+    <h1 style="color: #242565" class="fw-bold">Dịch vụ nổi bật</h1>
+    <div class="row row-cols-3 gap-4">
+      <div class="col">
+        <div class="card" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Gói trang trí sinh nhật cao cấp</h5>
+            <span style="font-weight: bold">
+              4.6 <span>(125 đánh giá)</span></span
+            >
+            <p class="card-text">1.500.000 VNĐ</p>
+            <a href="#" class="btn btn-primary">Xem chi tiết</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
 {% endblock content %}

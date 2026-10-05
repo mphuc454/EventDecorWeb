@@ -1,6 +1,6 @@
 #top {
   background: linear-gradient(to right, #ed4690, #5522cc);
-  height: 100vh;
+  max-height: 100vh;
 }
 .hero {
   background-image: url("../img/hero-img.png");
@@ -8,11 +8,18 @@
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  min-height: 450px;
+  min-height: 350px;
 }
 
 .text-introduce h1,
 .text-introduce h3 {
   font-size: 40px;
   font-weight: bold;
+}
+
+.circle {
+  background-color: red;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
 }
