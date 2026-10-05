@@ -10,3 +10,9 @@
   width: 100%;
   min-height: 450px;
 }
+
+.text-introduce h1,
+.text-introduce h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
