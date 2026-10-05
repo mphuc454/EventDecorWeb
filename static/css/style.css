@@ -1,0 +1,12 @@
+#top {
+  background: linear-gradient(to right, #ed4690, #5522cc);
+  height: 100vh;
+}
+.hero {
+  background-image: url("../img/hero-img.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 450px;
+}
