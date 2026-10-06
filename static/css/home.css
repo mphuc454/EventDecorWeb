@@ -9,13 +9,16 @@
   color: #6a6a6a;
 }
 .card-product {
+  width: 100%;
+  max-width: 385px;
   height: 365px;
   border: none;
   box-shadow: 0 18px 47px #b8b3b3;
 }
 .card-partner {
   border: none;
-  width: 413px;
+  width: 100%;
+  max-width: 413px;
   height: 284px;
   box-shadow: 0 18px 47px #b8b3b3;
 }
@@ -28,11 +31,19 @@
   font-size: 18px;
 }
 .about_me {
-  width: 1386px;
-  height: 233px;
+  width: 100%;
+  max-width: 1386px;
+  min-height: 233px;
+  height: auto;
   background-color: #ebe9ea;
   border-radius: 30px;
   overflow: hidden;
+  padding: 24px;
+}
+.about_me > div:first-child {
+  flex: 1.4;
+  padding: 0 24px;
+  text-align: center;
 }
 .icon {
   font-size: 87px;
@@ -45,4 +56,71 @@
 }
 footer {
   background-color: #0a075f;
+}
+.items-footer {
+  padding: 0 24px;
+}
+.explore-event {
+  position: relative;
+  padding: 24px;
+  width: 100%;
+  max-width: 1386px;
+  min-height: 233px;
+  height: auto;
+  gap: 24px;
+  border-radius: 60px;
+  overflow: hidden;
+}
+.explore-event::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../img/wedding.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: contrast(110%) saturate(90%) brightness(70%);
+  z-index: 0;
+}
+.explore-event > * {
+  position: relative;
+  z-index: 1;
+}
+.btn-explore {
+  background-color: #f44e51;
+  width: 266px;
+  height: 65px;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+@media (max-width: 767.98px) {
+  .about_me {
+    flex-wrap: wrap;
+    border-radius: 20px;
+  }
+
+  .about_me > div:first-child {
+    flex: 0 0 100%;
+    padding: 0;
+  }
+
+  .text_about_me {
+    flex: 1 1 30%;
+    padding: 0 8px;
+  }
+
+  .icon {
+    font-size: 56px;
+  }
+
+  .explore-event {
+    flex-direction: column;
+    align-items: flex-start !important;
+    border-radius: 24px;
+  }
+
+  .btn-explore {
+    max-width: 100%;
+  }
 }
