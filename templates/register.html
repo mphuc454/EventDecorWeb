@@ -1,0 +1,74 @@
+{% extends "base.html" %} {% block title %} Đăng ký{% endblock title %} {% block
+content %}
+<div class="container mb-4 mt-4 d-flex flex-column justify-content-center">
+  <div class="row register-contact">
+    <div
+      class="col-5 info-contact text-white d-flex flex-column justify-content-center gap-4"
+    >
+      <div class="d-flex flex-column justify-content-evenly h-100">
+        <div class="fw-semibold">
+          <h3>Đăng ký tài khoản cá nhân!</h3>
+          <p>
+            Vì mục đích tuân thủ các quy định của ngành, chúng tôi cần thông tin
+            chi tiết của bạn.
+          </p>
+        </div>
+
+        <span class="justify-content-end"
+          >Bạn đã có tài khoản?
+          <a style="color: rgb(170, 220, 61)" href="#"
+            >Nhấn vào đây để đăng nhập</a
+          >
+        </span>
+      </div>
+    </div>
+    <div class="col-7 p-3">
+      <div class="register-form">
+        <form>
+          <!-- Tên -->
+          <div class="form-group mb-3">
+            <label for="name" class="form-label">Tên của bạn</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Nhập tên tại đây"
+            />
+          </div>
+          <div class="form-group mb-3">
+            <label for="email" class="form-label">Nhập email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Nhập email tại đây"
+            />
+          </div>
+          <div class="form-group">
+            <label for="pwd">Tạo mật khẩu:</label>
+            <input type="password" class="form-control" id="pwd" />
+          </div>
+          <div class="form-group">
+            <label for="pwd">Xác nhận mật khẩu:</label>
+            <input type="password" class="form-control" id="confirm-pwd" />
+          </div>
+          <div class="checkbox">
+            <label
+              ><input type="checkbox" /> Tôi đồng ý với các điều khoản và điều
+              kiện.</label
+            >
+          </div>
+          <!-- Button -->
+          <div class="d-flex flex-column justify-content-center m-2 gap-3">
+            <a class="btn btn-danger"> Đăng ký tài khoản </a>
+            <a class="btn btn-light" style="border: 1px solid">
+              Đăng ký với Google
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}

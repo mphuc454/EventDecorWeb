@@ -19,5 +19,9 @@ def contact_us():
 def event_services():
     return render_template("eventservices.html")
 
+@app.route('/register')
+def register_user():
+    return render_template("register.html")
+
 if __name__ == "__main__":
     app.run(debug=True)

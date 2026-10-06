@@ -1,0 +1,10 @@
+.register-contact {
+  background: linear-gradient(to right, #9b088a, #4514b2);
+  padding: 24px;
+}
+.register-form {
+  background: #ffffff;
+  border-radius: 40px;
+  overflow: hidden;
+  padding: 20px;
+}
