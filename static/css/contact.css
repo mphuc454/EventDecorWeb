@@ -1,0 +1,14 @@
+.form-contact {
+  max-width: 1203px;
+  min-height: 471px;
+  background-color: #d1c6c6;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.form-contact .info-contact {
+  background: linear-gradient(to right, #a03eab, #6435ce);
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+}

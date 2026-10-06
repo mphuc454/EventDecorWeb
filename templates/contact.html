@@ -1,0 +1,29 @@
+{% extends "base.html" %} {% block title %} Liên hệ{% endblock title %} {% block
+header %}
+<div
+  class="container header-page d-flex justify-content-center align-items-center"
+>
+  <h1 class="fw-bold text-white">Liên hệ</h1>
+</div>
+{% endblock header %} {% block content %}
+<div class="container mb-4 mt-4 d-flex flex-column justify-content-center">
+  <div class="row form-contact">
+    <div
+      class="col-5 info-contact text-white d-flex flex-column justify-content-center gap-4"
+    >
+      <h3>Thông tin liên hệ</h3>
+      <p class="contact-item gap-4">
+        <i class="fa-solid fa-phone-volume"></i>+1012 3456 789
+      </p>
+      <p class="contact-item gap-4">
+        <i class="fa-regular fa-envelope"></i>info@vietlinkmedia.com
+      </p>
+      <p class="contact-item gap-4">
+        <i class="fa-solid fa-location-dot"></i>139 Nhị Bình 7, Xã Hóc Môn, TP.
+        Hồ Chí Minh
+      </p>
+    </div>
+    <div class="col-7"></div>
+  </div>
+</div>
+{% endblock content %}
