@@ -24,13 +24,16 @@
       rel="stylesheet"
       href="{{url_for('static', filename='css/home.css')}}"
     />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/about.css')}}"
+    />
   </head>
   <body>
     <header id="top">
       {% include "navbar.html" %} {% block header %}{% endblock header %}
     </header>
-
-    {% block content %}{% endblock content %}
+    <main>{% block content %} {% endblock content %}</main>
 
     <footer class="text-center text-lg-start text-white">
       <!-- Section: Links  -->
