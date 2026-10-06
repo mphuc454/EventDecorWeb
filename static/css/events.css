@@ -1,0 +1,26 @@
+.search-container {
+  position: relative;
+}
+
+.search-input {
+  height: 50px;
+  min-width: 250px;
+  border-radius: 30px;
+  padding-left: 35px;
+  border: none;
+  box-shadow: 0 0 10px #b8b3b3;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #888;
+}
+.btn-drop {
+  border-radius: 30px;
+  border: 1px solid black;
+  height: 46px;
+  width: 168px;
+}

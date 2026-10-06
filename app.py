@@ -15,5 +15,9 @@ def about_us():
 def contact_us():
     return render_template("contact.html")
 
+@app.route('/services')
+def event_services():
+    return render_template("eventservices.html")
+
 if __name__ == "__main__":
     app.run(debug=True)

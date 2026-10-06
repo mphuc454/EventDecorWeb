@@ -1,0 +1,62 @@
+{% extends "base.html" %} {% block title %} Dịch vụ sự kiện {% endblock title %}
+{% block header %}
+<div
+  class="container header-page d-flex justify-content-center align-items-center"
+>
+  <h1 class="fw-bold text-white">Dịch vụ</h1>
+</div>
+{% endblock header %} {% block content %}
+<div class="container mb-4 mt-4">
+  <div class="row align-items-center justify-content-between g-4">
+    <div class="col-lg-6 col-md-6 col-xs-6">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="search-container">
+            <input
+              type="text"
+              class="form-control search-input ms-2"
+              placeholder="Tìm kiếm..."
+            />
+            <i class="fas fa-search search-icon"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-xs-3">
+      <div class="dropdown">
+        <button
+          class="btn btn-drop dropdown-toggle"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Loại dịch vụ
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-xs-3">
+      <div class="dropdown">
+        <button
+          class="btn btn-drop dropdown-toggle"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Giá cả
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}
