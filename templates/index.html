@@ -1,11 +1,11 @@
 {% extends "base.html" %} {% block title %} Trang chủ {% endblock %} {% block
 content %}
 <main>
-  <div class="container mb-4 mt-4">
+  <div class="container mb-4 mt-4 d-flex flex-column align-items-center">
     <h1 style="color: #242565" class="fw-bold">Dịch vụ nổi bật</h1>
     <div class="row row-cols-3 gap-4">
       <div class="col">
-        <div class="card" style="width: 18rem">
+        <div class="card card-product" style="width: 385px">
           <img src="..." class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title title fw-bold">
@@ -21,12 +21,57 @@ content %}
         </div>
       </div>
     </div>
+    <button class="btn btn-all btn-primary mt-5 fw-bold">Xem tất cả</button>
   </div>
   <div class="container mb-4 mt-4 d-flex flex-column align-items-center">
     <h1 style="color: #242565" class="fw-bold">Đối tác nổi bật</h1>
     <p class="desc-partner fw-medium">
       Các đối tác uy tín chất lượng được nhiều khách hàng tin tưởng
     </p>
+    <div class="row gap-4">
+      <div class="col">
+        <div class="card card-partner">
+          <img class="card-img-top" src="..." alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title fw-bold" style="color: #242565">
+              HoaBinh Events
+            </h5>
+            <p class="card-text">
+              Công ty tổ chức sự kiện uy tín chuyên cung cấp trọn gói nhân sự,
+              kịch bản, trang trí tiệc sinh nhật, tiệc tri ân và Year End Party
+              cho khách hàng cá nhân lẫn doanh nghiệp
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="btn btn-all btn-primary mt-5 fw-bold">Xem tất cả</button>
+  </div>
+  <div class="container mb-4 mt-4 d-flex flex-column align-items-center">
+    <div class="about_me d-flex align-items-center justify-content-around">
+      <div class="d-flex flex-column align-items-center">
+        <h3>Tại sao chọn nền tảng chúng tôi ?</h3>
+        <p>
+          Chúng tôi mang đến trải nghiệm đặt dịch vụ sự kiện dễ dàng, minh bạch
+          và an toàn
+        </p>
+      </div>
+      <div class="text_about_me d-flex flex-column align-items-center">
+        <i class="fa-solid fa-magnifying-glass icon"></i>
+        <h3>Dễ dàng</h3>
+        <p>Dịch vụ đa dạng</p>
+      </div>
+      <div class="text_about_me d-flex flex-column align-items-center">
+        <i class="fa-regular fa-star icon"></i>
+        <h3>Thực tế</h3>
+        <p>Từ trải nghiệm khách hàng</p>
+      </div>
+      <div class="text_about_me d-flex flex-column align-items-center">
+        <i class="fa-regular fa-heart icon"></i>
+        <h3>Tận tâm</h3>
+        <p>Luôn đồng hành cùng bạn</p>
+      </div>
+    </div>
   </div>
 </main>
 

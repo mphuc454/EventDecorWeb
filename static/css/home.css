@@ -8,3 +8,41 @@
 .desc-partner {
   color: #6a6a6a;
 }
+.card-product {
+  height: 365px;
+  border: none;
+  box-shadow: 0 18px 47px #b8b3b3;
+}
+.card-partner {
+  border: none;
+  width: 413px;
+  height: 284px;
+  box-shadow: 0 18px 47px #b8b3b3;
+}
+.btn-all {
+  background: transparent;
+  color: #3d37f1;
+  border-radius: 50px;
+  width: 204px;
+  height: 58px;
+  font-size: 18px;
+}
+.about_me {
+  width: 1386px;
+  height: 233px;
+  background-color: #ebe9ea;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.icon {
+  font-size: 87px;
+}
+.text_about_me {
+  flex: 1;
+  border-left: 1px solid #000000;
+  padding: 0 24px;
+  text-align: center;
+}
+footer {
+  background-color: #0a075f;
+}
