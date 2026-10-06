@@ -2,3 +2,13 @@
   height: 100%;
   min-height: 425px;
 }
+.title-about-us {
+  color: #242565;
+  font-size: 40px;
+}
+.card-about-me {
+  width: 100%;
+  min-width: 355px;
+  min-height: 185px;
+  border-radius: 20px;
+}
