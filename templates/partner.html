@@ -1,0 +1,64 @@
+{% extends "base.html" %} {% block title %} Đối tác{% endblock title %} {% block
+header %}
+<div
+  class="container header-page d-flex justify-content-center align-items-center"
+>
+  <h1 class="fw-bold text-white">Đối tác</h1>
+</div>
+{% endblock header %}{% block content %}
+<div class="container mb-4 mt-4">
+  <div class="search-container">
+    <input
+      type="text"
+      class="form-control search-input ms-2"
+      placeholder="Tìm kiếm đối tác..."
+    />
+    <i class="fas fa-search search-icon"></i>
+  </div>
+</div>
+<div class="container mb-4 mt-4 d-flex flex-column align-items-center">
+  <h1 style="color: #242565" class="fw-bold">Đối tác nổi bật</h1>
+  <p class="desc-partner fw-medium">
+    Các đối tác được nhiều khách hàng tin tưởng
+  </p>
+  <div class="row gap-4">
+    <div class="col">
+      <div class="card card-partner-page">
+        <img class="card-img-top" src="..." alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title fw-bold" style="color: #242565">
+            HoaBinh Events
+          </h5>
+          <p class="card-text">
+            Công ty tổ chức sự kiện uy tín chuyên cung cấp trọn gói nhân sự,
+            kịch bản, trang trí tiệc sinh nhật, tiệc tri ân và Year End Party
+            cho khách hàng cá nhân lẫn doanh nghiệp
+          </p>
+        </div>
+        <div class="specialize d-flex gap-3">
+          <div>
+            <p class="specialize-items">Sinh nhật</p>
+          </div>
+          <div>
+            <p class="specialize-items">Tiệc tri ân</p>
+          </div>
+          <div>
+            <p class="specialize-items">Year End Party</p>
+          </div>
+        </div>
+        <div class="row d-flex align-items-center">
+          <div class="col-10">
+            <button class="btn btn-primary btn-detailed-partner">
+              Xem chi tiết
+            </button>
+          </div>
+          <div class="col-2">
+            <a><i class="fa-regular fa-bookmark"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}

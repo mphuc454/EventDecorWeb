@@ -27,5 +27,9 @@ def register_user():
 def login_user():
     return render_template("login.html")
 
+@app.route('/partner')
+def partner_user():
+    return render_template("partner.html")
+
 if __name__ == "__main__":
     app.run(debug=True)

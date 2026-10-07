@@ -1,0 +1,16 @@
+.specialize-items {
+  border-radius: 40px;
+  border: 1px solid;
+  padding: 10px;
+}
+.card-partner-page {
+  padding: 20px;
+  border: none;
+  width: 100%;
+  max-width: 413px;
+  min-height: 284px;
+  box-shadow: 0 18px 47px #b8b3b3;
+}
+.btn-detailed-partner {
+  width: 100%;
+}
