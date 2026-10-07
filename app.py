@@ -23,5 +23,9 @@ def event_services():
 def register_user():
     return render_template("register.html")
 
+@app.route('/login')
+def login_user():
+    return render_template("login.html")
+
 if __name__ == "__main__":
     app.run(debug=True)

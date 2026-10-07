@@ -1,0 +1,50 @@
+{% extends "base.html" %} {% block title %} Đăng nhập{% endblock title %} {% block
+content %}
+<div class="container mb-4 mt-4 d-flex flex-column justify-content-center">
+  <div class="row register-contact">
+    <div
+      class="col-5 info-contact text-white d-flex flex-column justify-content-center gap-4"
+    >
+      <div class="d-flex flex-column justify-content-evenly h-100">
+        <div class="fw-semibold">
+          <h3>Đăng nhập tài khoản cá nhân!</h3>
+        </div>
+
+        <span class="justify-content-end"
+          >Bạn chưa có tài khoản?
+          <a style="color: rgb(170, 220, 61)" href="#"
+            >Nhấn vào đây để đăng ký</a
+          >
+        </span>
+      </div>
+    </div>
+    <div class="col-7 p-3">
+      <div class="register-form">
+        <form>
+          <div class="form-group mb-3">
+            <label for="email" class="form-label">Nhập email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Nhập email tại đây"
+            />
+          </div>
+          <div class="form-group">
+            <label for="pwd">Nhập mật khẩu:</label>
+            <input type="password" class="form-control" id="pwd" />
+          </div>
+          <!-- Button -->
+         <div class="d-flex flex-column justify-content-center m-2 gap-3">
+            <a class="btn btn-primary"> Đăng nhập </a>
+            <a class="btn btn-light" style="border: 1px solid">
+              <i class="fa-brands fa-google"></i> Đăng nhập với Google
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}
