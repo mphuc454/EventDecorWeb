@@ -18,3 +18,11 @@
   padding: 20px;
   border-radius: 40px;
 }
+.are-you-partner {
+  background: linear-gradient(110deg, #3b2a6e, #7a3d8f);
+  border-radius: 40px;
+  padding: 20px;
+}
+.saved {
+  cursor: pointer;
+}
