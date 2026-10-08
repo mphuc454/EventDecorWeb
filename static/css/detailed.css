@@ -41,3 +41,12 @@
   height: 60px;
   color: #7c3aed;
 }
+.top-border {
+  border-top: 1px solid white;
+}
+.banner-info,
+.banner-add-info {
+  padding: 20px;
+  background-color: #141a4a;
+  border-radius: 25px;
+}
