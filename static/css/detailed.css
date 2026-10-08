@@ -1,0 +1,43 @@
+.info-events {
+  background-color: #4c1d95;
+  width: 100%;
+  max-width: 1362px;
+  padding: clamp(20px, 4vw, 40px);
+}
+.specialize-events {
+  border-radius: 40px;
+  border: none;
+  background: #141a4a;
+  width: 129px;
+  height: 52px;
+  padding: 15px;
+}
+.title-events {
+  font-size: clamp(2rem, 5vw, 4.375rem);
+  font-weight: bold;
+}
+.btn-add-cart {
+  background: linear-gradient(to right, #ec4899, #7c3aed);
+  width: 196px;
+  height: 60px;
+  border: none;
+}
+.btn-order {
+  width: 196px;
+  height: 60px;
+}
+.saved {
+  font-size: 40px;
+  color: white;
+}
+.who-is-events {
+  padding: 20px;
+}
+.btn-view-partner {
+  border: 3px solid #141a4a;
+  border-radius: 50px;
+  padding: 10px;
+  min-width: 218px;
+  height: 60px;
+  color: #7c3aed;
+}
